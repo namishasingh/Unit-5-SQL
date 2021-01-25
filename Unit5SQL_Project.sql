@@ -21,7 +21,9 @@ CREATE TABLE Reviewers (
     vidId INT REFERENCES Videos);
 	
 INSERT INTO Reviewers ( Name, Rating, Review, vidId) VALUES ( 'Steve Carell', 5, 'Loved it, this deserves a Dundie!', 2);
+INSERT INTO Reviewers ( Name, Rating, Review, vidId) VALUES ( 'Jenna Fischer', 5, 'Great!', 2);
 INSERT INTO Reviewers ( Name, Rating, Review, vidId) VALUES ( 'Rainn Wilson', 4, 'Hilarious, but do not take Dwight and his advice seriously!', 3);
+INSERT INTO Reviewers ( Name, Rating, Review, vidId) VALUES ( 'John Krasinski', 5, 'Make sure to do the vampire cough like Pam suggested!', 3);
 	
 Select * from Reviewers
 
